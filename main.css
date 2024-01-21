@@ -1,0 +1,22 @@
+body {
+    display: block;
+    width: 300px;
+    max-height: 90vh;
+}
+
+#debug_bar, #status_bar {
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
+
+.button_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.button_bar__button {
+    flex-grow: 1;
+    margin: 0 5px;
+}

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Bisect Bad Extension",
+  "description": "Bisects bad extensions by disabling half of them at a time. Allows to find an extension causing a problem in O(log n) steps.",
+  "version": "1.0",
+  "homepage_url": "https://github.com/xahon/chrome-extension-bisect",
+  "action": {
+    "default_popup": "main.html",
+    "default_icon": "main64x64.png"
+  },
+  "permissions": [
+    "management",
+    "storage",
+    "tabs"
+  ]
+}
