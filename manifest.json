@@ -10,7 +10,6 @@
   },
   "permissions": [
     "management",
-    "storage",
-    "tabs"
+    "storage"
   ]
 }
